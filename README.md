@@ -2,7 +2,7 @@
 
 Have you ever had a question you needed the answer to right away? Why not ask the internet!!
 
-This Stack Overflow clone is a Rails full-stack application that displays questions and allows users to post answers, upvote or downvote questions and answers, as well as comment on either. 
+This Stack Overflow clone is a Sinatra full-stack application that displays questions and allows users to post answers, upvote or downvote questions and answers, as well as comment on either. 
 
 ## Getting Started
 
@@ -50,7 +50,7 @@ $ heroku open
 
 ## Built With
 
-* [Ruby on Rails](http://api.rubyonrails.org/) - Backend API framework used
+* [Sinatra](https://www.sinatrarb.com) - Backend API framework used
 * [BCrypt](http://www.rubydoc.info/github/codahale/bcrypt-ruby/BCrypt) - Encryption solution used for hashing passwords
 * [PostgreSQL](https://www.postgresql.org/docs/) - Database used
 
