@@ -14,7 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 ruby 2.3.1
 bundler 1.12.5
 sinatra 1.4.7
-shotgun Rack 1.3
+shotgun rack 1.3
 ```
 
 ### Installing
@@ -51,7 +51,7 @@ $ heroku open
 
 ## Built With
 
-* [Sinatra](https://www.sinatrarb.com) - Framework used
+* [Sinatra](https://www.sinatrarb.com) - DSL framework used
 * [BCrypt](http://www.rubydoc.info/github/codahale/bcrypt-ruby/BCrypt) - Encryption solution used for hashing passwords
 * [PostgreSQL](https://www.postgresql.org/docs/) - Database used
 
