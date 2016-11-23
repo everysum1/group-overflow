@@ -51,7 +51,7 @@ $ heroku open
 
 ## Built With
 
-* [Sinatra](https://www.sinatrarb.com) - Backend API framework used
+* [Sinatra](https://www.sinatrarb.com) - Framework used
 * [BCrypt](http://www.rubydoc.info/github/codahale/bcrypt-ruby/BCrypt) - Encryption solution used for hashing passwords
 * [PostgreSQL](https://www.postgresql.org/docs/) - Database used
 
