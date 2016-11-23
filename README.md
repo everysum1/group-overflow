@@ -13,7 +13,8 @@ These instructions will get you a copy of the project up and running on your loc
 ```
 ruby 2.3.1
 bundler 1.12.5
-rails 5.0.0
+sinatra 1.4.7
+shotgun Rack 1.3
 ```
 
 ### Installing
@@ -23,13 +24,13 @@ $ git clone https://www.gihub.com/everysum1/hack-overflow.git
 $ cd hack-overflow
 ```
 
-Then run bundle command to install all dependencies and run the server.  
+Then run bundle command to install all dependencies and start shotgun to run the server.  
 
 ```
 $ bundle install
-$ rails server
+$ shotgun 
 ```
-
+and view at: (http://localhost:9393)
 
 ## Running ALL the tests
 
