@@ -1,6 +1,8 @@
 # Hack Overflow
 
-Rails full-stack application displays questions and allows users to post answers, upvote or downvote questions and answers, as well as comment on either. 
+Have you ever had a question you needed the answer to right away? Why not ask the internet!!
+
+This Stack Overflow clone is a Rails full-stack application that displays questions and allows users to post answers, upvote or downvote questions and answers, as well as comment on either. 
 
 ## Getting Started
 
@@ -38,8 +40,11 @@ $ bundle exec rspec spec
 ## Deployment
 
 You must have Heroku CLI installed and be logged in to Heroku in order to deploy live via Heroku servers.  Please see the [documentation](https://devcenter.heroku.com) to get set up with Heroku. 
+
+Then from the command line...
 ```
 $ heroku create
+$ git push heroku master
 $ heroku open
 ```
 
