@@ -37,6 +37,7 @@ $ bundle exec rspec spec
 
 ## Deployment
 
+You must have Heroku CLI installed and be logged in to Heroku in order to deploy live via Heroku servers.  Please see the [documentation](https://devcenter.heroku.com) to get set up with Heroku. 
 ```
 $ heroku create
 $ heroku open
