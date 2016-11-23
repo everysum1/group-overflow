@@ -32,24 +32,21 @@ $ rails server
 ## Running ALL the tests
 
 ```
-bundle exec rspec spec
+$ bundle exec rspec spec
 ```
 
 ## Deployment
 
 ```
-heroku open
+$ heroku create
+$ heroku open
 ```
 
 ## Built With
 
 * [Ruby on Rails](http://api.rubyonrails.org/) - Backend API framework used
+* [BCrypt](http://www.rubydoc.info/github/codahale/bcrypt-ruby/BCrypt) - Encryption solution used for hashing passwords
 * [PostgreSQL](https://www.postgresql.org/docs/) - Database used
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
 
 ## Authors
 
@@ -57,8 +54,6 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 * **Jessica Forchione** - [Github](https://github.com/jsforchione)
 * **Ilaria Varriale** - [Github](https://github.com/HigitusFigitus)
 * **Rusty Hutto** - [Github](https://github.com/)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
